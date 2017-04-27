@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.info.advanztest.fragments.SmileyFaceFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:id="@+id/btnSad"
+        android:layout_width="wrap_content"
+        android:text="Sad"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_toRightOf="@+id/btnSad"
+        android:id="@+id/btnHappy"
+        android:layout_width="wrap_content"
+        android:text="Happy"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_toRightOf="@+id/btnHappy"
+        android:id="@+id/btnClear"
+        android:layout_width="wrap_content"
+        android:text="Clear"
+        android:layout_height="wrap_content" />
+
+    <com.info.advanztest.utility.ui.SmileDrawingView
+        android:id="@+id/smileDrawingView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" />
+
+</RelativeLayout>
