@@ -17,6 +17,8 @@ import java.util.ArrayList;
  * Created by dbagv_000 on 4/27/2017.
  */
 public class SmileDrawingView extends View {
+
+    //https://github.com/sujithkanna/SmileyRating
     // setup initial color
     private final int paintColor = Color.BLACK;
     // defines paint and canvas
